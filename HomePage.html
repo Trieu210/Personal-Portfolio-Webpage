@@ -87,29 +87,125 @@
 
 
     </aside>
-    <!-- Main About Me Page -->
+    <!-- Main Page -->
     <div class="main-info">
-      <article class="about-me">
+      <!-- Nav Bar -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link"  data-btn="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link"  data-btn="resume">Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-btn="projects">Projects</button>
+          </li>
+        </ul>
+
+      </nav>
+
+    <!-- About Me -->
+      <article class="about-me" id="about-me">
         <header>
-          <h2>About me</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
-        <section>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque amet, mollitia rem nostrum officiis vero obcaecati ad quos recusandae placeat reprehenderit dolorum nam maxime. Commodi magnam ipsa temporibus hic!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perferendis quaerat et, assumenda vel eum voluptatem. Quo, reiciendis consequuntur? Animi nihil dicta veritatis doloribus cum ab officiis ut similique tempore.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate, ullam quo magnam expedita, molestias eligendi ut sint repudiandae sequi atque, optio ea cumque dolorum nemo commodi accusantium non modi!</p>
+        <section class="about-me-info">
+          <p>Hi there! My name is Tien Duc Trieu, and I am a senior Software Engineering student at the University of Technology Sydney (UTS). I have a strong passion for technology and software development, and I am always looking for new ways to expand my skills and knowledge in the field.</p>
+          <p>
+            I have a solid background in computer science, with a focus on software development and data analysis. During my time at UTS, I have taken courses in programming, algorithms, software design, and database systems, among others. I have also worked on several group projects, including a web-based e-commerce platform and a machine learning model for sentiment analysis.
+          </p>
+          <p>
+            Apart from my academic pursuits, I enjoy exploring new technologies and experimenting with different programming languages and frameworks. I am particularly interested in mobile development, artificial intelligence, and blockchain technology. I also like to participate in coding competitions and hackathons to challenge myself and learn from others.
+          </p>
+          <p>In my free time, I enjoy playing badminton,football, watching movies, and reading books. I am also an avid traveler and love to explore new cultures and cuisines. </p>
+
+            <p>If you have any questions or would like to get in touch, feel free to reach out to me at vanoss010@gmail.com. I would be happy to connect and chat about software development, technology, or anything else that interests you.</p>
+            
+            <p>Thank you for stopping by, and I look forward to hearing from you soon!</p>
         </section>
 
       </article>
+    <!-- Professional Aspiration -->
+    <article class="pro-asp" id="pro-asp">
+      <header>
+        <h2 class="h2 article-title"> Professional Aspiration</h2>
+      </header>
+      <!-- Professional Lists -->
+      <ul class="pro-list">
+        <li class="pro-items">
+          <div class="pro-icon">
+            <img src="/Images/icons8-front-end-64.png">
+
+          </div>
+          <div class="pro-content">
+            <h4 class="h4 pro-content-title">Front-End Developer</h4>
+            <p class="pro-content-info">Designing, Developing, and implementing the UI and UX of web application</p>
+          </div>
+        </li>
+        <li class="pro-items">
+          <div class="pro-icon">
+            <img src="/Images/icons8-rest-api-64.png">
+          </div>
+          <div class="pro-content">
+            <h4 class="h4 pro-content-title">Back-End Developer</h4>
+            <p class="pro-content-info">Building and managing databases,designing and implementing APIs</p>
+          </div>
+        </li>
+        <li class="pro-items">
+          <div class="pro-icon">
+            <img src="/Images/icons8-full-stack-64.png">
+          </div>
+          <div class="pro-content">
+            <h4 class="h4 pro-content-title">Full-Stack Developer</h4>
+            <p class="pro-content-info">Skills to work on both front-end and back-end aspects of web application</p>
+          </div>
+        </li>
+        <li class="pro-items">
+          <div class="pro-icon">
+            <img src="/Images/icons8-java-64.png">
+          </div>
+          <div class="pro-content">
+            <h4 class="pro-content-title">Java Developer</h4>
+            <p class="pro-content-info">Developing applications,software, and systems using the Java programming language</p>
+          </div>
+        </li>
+      </ul>
+    </article>
+    <!-- <div class="article-divider"></div> -->
+
+    <!-- Resume Page -->
+    <article id="resume" class="resume" data-page="resume">
+      <header>
+        <h2 class="h2 article-title">Resume</h2>
+      </header>
+      <section class="timeline">
+        <div class="title">
+          <div class="icon-box">
+            <img src="\Images\icons8-student-center-32.png">
+          </div>
+          <h3 class="h3">Education</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-info"></li>
+          <li class="timeline-info"></li>
+        </ol>
+      </section>
+    </article>
+
+    <!-- Projects Page -->
+    <article id="projects" class="projects active" data-page="projects">
+      <header>
+        <h2 class="h2 article-title">Projects</h2>
+      </header>
+    </article>
 
     </div>
   </main>
-  
+  <script src="\JS\index.js"></script>
 </body>
 </html>

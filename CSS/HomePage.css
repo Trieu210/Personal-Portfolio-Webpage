@@ -7,9 +7,9 @@ body{
 }
 main {
     display:flex;
-    margin: 15px 12px;
+    margin: 30px 28px;
     margin-bottom: 75px;
-    min-width: 259px;
+    min-width: 100px;
     gap: 25px;
 }
 
@@ -22,15 +22,17 @@ main {
     background: hsl(240, 2%, 12%);
     border: 1px solid #1c1c1c;
     border-radius: 20px;
-    padding: 30px;
+    padding: 10px;
     z-index: 1;
+    max-height: 660px;
+    max-width: 300px;
 }
 .topbar-info{
-    position:relative;
+    flex-direction: column;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap:25px;
+    gap:10px;
 }
 .info-content .name{
     color:hsl(0, 0%, 98%);
@@ -51,7 +53,7 @@ main {
 }
 
 .separator{
-    width: 500px;
+    width: 250px;
     height: 1px;
     background: hsl(0, 0%, 22%);
     margin:35px;
@@ -62,6 +64,8 @@ main {
     border-radius: 20px;
 
 }
+
+
 /* Contact Lists */
 .contact-list{
     display: grid;
@@ -108,4 +112,177 @@ a{
 .socials-list{
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
+
+/* Main info */
+.main-info{
+    position: relative;
+    width: max-content;
+    margin: auto;
+    padding:30px;
+}
+
+.about-me {
+    display: block;
+  }
+  
+  .resume {
+    display: none;
+  }
+  
+  .projects {
+    display: none;
+  }
+
+
+
+/* Nav Bar */
+
+
+.navbar{
+    background: rgba(43, 43, 44, 0.75);
+    position: absolute;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: max-content;
+    border-radius: 0 10px;
+    padding: 0 20px;
+    box-shadow: none;
+}
+
+.navbar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    list-style-type: none;
+    gap:30px;
+}
+
+
+.navbar-link{
+    background: #fa5252;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #000000;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    font: inherit;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FA5252;
+}
+
+.navbar-link:active {
+  opacity: .5;
+}
+
+
+/* About Me */
+.about-me .article-title{
+    margin-bottom: 20px;
+}
+.h2{
+    font-size: 32px;
+}
+.article-title{
+    font-weight: 600;;
+    color:#d32b2b;
+}
+
+.about-me-info{
+    color:hsl(0, 0%, 84%);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.about-me header::after{
+    content:"";
+    display: block;
+    height:6px;
+    width: 150px;
+    margin: 20px 0;
+    background-color:hsl(0, 0%, 22%);
+    border-radius: 5px;
+}
+
+.about-me section::after{
+    content:"";
+    display: block;
+    height:6px;
+    width: 150px;
+    margin: 20px 0;
+    background-color:hsl(0, 0%, 22%);
+    border-radius: 5px;
+}
+
+
+/* Professional Aspiration */
+.pro-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px 25px;
+    list-style-type: none;
+}
+.pro-items{
+    box-shadow:  0 16px 30px hsla(0, 0%, 0%, 0.125);
+    background:linear-gradient(hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% ) ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 14px;
+
+}
+.pro-content-title{
+    color:hsla(0, 0%, 84%, 0.7);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.pro-content-info{
+    color: hsl(0, 0%, 84%);
+    font-size:15px;
+    line-height: 1.6;
+}
+
+.article-divider {
+    content:"";
+    display: block;
+    height:6px;
+    width: 150px;
+    margin: 20px 0;
+    background-color:hsl(0, 0%, 22%);
+    border-radius: 5px;
+}
+
+/* Resume Page */
+
+.resume header::after{
+    content:"";
+    display: block;
+    height:6px;
+    width: 150px;
+    margin: 20px 0;
+    background-color:hsl(0, 0%, 22%);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+  
