@@ -83,10 +83,8 @@
           <object data="\Images\linkedin-icon.svg" type="image/svg+xml"></object>
         </li>
       </ul>
-
-
-
     </aside>
+
     <!-- Main Page -->
     <div class="main-info">
       <!-- Nav Bar -->
@@ -95,29 +93,34 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link"  data-btn="about">About</button>
+            <button class="navbar-link  active" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link"  data-btn="resume">Resume</button>
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-btn="projects">Projects</button>
+            <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
         </ul>
 
       </nav>
 
     <!-- About Me -->
-      <article class="about-me" id="about-me">
+      <article class="about-me active" data-page="about" >
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
         <section class="about-me-info">
-          <p>Hi there! My name is Tien Duc Trieu, and I am a senior Software Engineering student at the University of Technology Sydney (UTS). I have a strong passion for technology and software development, and I am always looking for new ways to expand my skills and knowledge in the field.</p>
+          <!-- <p>Hi there! My name is Tien Duc Trieu, and I am a senior Software Engineering Undergraduate at the University of Technology Sydney (UTS). I have a strong passion for technology and software development, and I am always looking for new ways to expand my skills and knowledge in the field.</p>
           <p>
-            I have a solid background in computer science, with a focus on software development and data analysis. During my time at UTS, I have taken courses in programming, algorithms, software design, and database systems, among others. I have also worked on several group projects, including a web-based e-commerce platform and a machine learning model for sentiment analysis.
+            I have a solid background in computer science, with a focus on software development and data analysis. During my time at UTS, I have taken courses in programming, algorithms, software design, and database systems, among others. I have also worked on several group projects, including a web-based e-commerce platform and an application for Atlassian.
           </p>
           <p>
             Apart from my academic pursuits, I enjoy exploring new technologies and experimenting with different programming languages and frameworks. I am particularly interested in mobile development, artificial intelligence, and blockchain technology. I also like to participate in coding competitions and hackathons to challenge myself and learn from others.
@@ -126,82 +129,265 @@
 
             <p>If you have any questions or would like to get in touch, feel free to reach out to me at vanoss010@gmail.com. I would be happy to connect and chat about software development, technology, or anything else that interests you.</p>
             
-            <p>Thank you for stopping by, and I look forward to hearing from you soon!</p>
+            <p>Thank you for stopping by, and I look forward to hearing from you soon!</p> -->
+        </section>
+        <!--Professional Aspiration  -->
+        <section class="pro-asp" id="pro-asp">
+          <header>
+            <h2 class="h2 article-title"> Professional Aspiration</h2>
+          </header>
+          <!-- Professional Lists -->
+          <ul class="pro-list">
+            <li class="pro-items">
+              <div class="pro-icon">
+                <img src="/Images/icons8-front-end-64.png">
+    
+              </div>
+              <div class="pro-content">
+                <h4 class="h4 pro-content-title">Front-End Developer</h4>
+                <p class="pro-content-info">Designing, Developing, and implementing the UI and UX of web application</p>
+              </div>
+            </li>
+            <li class="pro-items">
+              <div class="pro-icon">
+                <img src="/Images/icons8-rest-api-64.png">
+              </div>
+              <div class="pro-content">
+                <h4 class="h4 pro-content-title">Back-End Developer</h4>
+                <p class="pro-content-info">Building and managing databases,designing and implementing APIs</p>
+              </div>
+            </li>
+            <li class="pro-items">
+              <div class="pro-icon">
+                <img src="/Images/icons8-full-stack-64.png">
+              </div>
+              <div class="pro-content">
+                <h4 class="h4 pro-content-title">Full-Stack Developer</h4>
+                <p class="pro-content-info">Skills to work on both front-end and back-end aspects of web application</p>
+              </div>
+            </li>
+            <li class="pro-items">
+              <div class="pro-icon">
+                <img src="/Images/icons8-java-64.png">
+              </div>
+              <div class="pro-content">
+                <h4 class="pro-content-title">Java Developer</h4>
+                <p class="pro-content-info">Developing applications,software, and systems using the Java programming language</p>
+              </div>
+            </li>
+          </ul>
         </section>
 
       </article>
-    <!-- Professional Aspiration -->
-    <article class="pro-asp" id="pro-asp">
-      <header>
-        <h2 class="h2 article-title"> Professional Aspiration</h2>
-      </header>
-      <!-- Professional Lists -->
-      <ul class="pro-list">
-        <li class="pro-items">
-          <div class="pro-icon">
-            <img src="/Images/icons8-front-end-64.png">
-
-          </div>
-          <div class="pro-content">
-            <h4 class="h4 pro-content-title">Front-End Developer</h4>
-            <p class="pro-content-info">Designing, Developing, and implementing the UI and UX of web application</p>
-          </div>
-        </li>
-        <li class="pro-items">
-          <div class="pro-icon">
-            <img src="/Images/icons8-rest-api-64.png">
-          </div>
-          <div class="pro-content">
-            <h4 class="h4 pro-content-title">Back-End Developer</h4>
-            <p class="pro-content-info">Building and managing databases,designing and implementing APIs</p>
-          </div>
-        </li>
-        <li class="pro-items">
-          <div class="pro-icon">
-            <img src="/Images/icons8-full-stack-64.png">
-          </div>
-          <div class="pro-content">
-            <h4 class="h4 pro-content-title">Full-Stack Developer</h4>
-            <p class="pro-content-info">Skills to work on both front-end and back-end aspects of web application</p>
-          </div>
-        </li>
-        <li class="pro-items">
-          <div class="pro-icon">
-            <img src="/Images/icons8-java-64.png">
-          </div>
-          <div class="pro-content">
-            <h4 class="pro-content-title">Java Developer</h4>
-            <p class="pro-content-info">Developing applications,software, and systems using the Java programming language</p>
-          </div>
-        </li>
-      </ul>
-    </article>
-    <!-- <div class="article-divider"></div> -->
-
     <!-- Resume Page -->
-    <article id="resume" class="resume" data-page="resume">
+    <article class="resume" data-page="resume">
       <header>
         <h2 class="h2 article-title">Resume</h2>
       </header>
       <section class="timeline">
-        <div class="title">
+        <div class="title-wrapper">
           <div class="icon-box">
             <img src="\Images\icons8-student-center-32.png">
           </div>
           <h3 class="h3">Education</h3>
         </div>
         <ol class="timeline-list">
-          <li class="timeline-info"></li>
-          <li class="timeline-info"></li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">University of Technology Sydney</h4>
+            <span>2019 - 2023</span>
+            <p class="timeline-des">Bachelor of Software Engineering, GPA:5.5/7</p>
+            <P class="timeline-des">Relevant Coursework: Web Development, Database Systems, Data Structure and 
+              Algorithms, Project Management</P>
+            <!-- <p class="invisible">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati consequuntur porro dolorum, soluta excepturi reprehenderit explicabo cumque. Alias assumenda, nihil provident harum totam nemo</p> -->
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Ha Noi Amsterdam High School for the Gifted </h4>
+            <span>2015 - 2018</span>
+            <p class="timeline-des">GPA 9.5/10, IELTS Certificate:7.5</p>
+          </li>
         </ol>
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <img src="\Images\icons8-experience-skill-32.png">
+          </div>
+          <h3 class="h3">Experience</h3>
+        </div>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Java Developer Intern</h4>
+            <span>8/2021 - 2/2022 </span>
+            <p class="timeline-des">Company: VNPT Technology</p>
+            <p class="timeline-des">Developed and maintained software applications using language such as Java</p>
+            <p class="timeline-des">Collaborated with a skilled team of developers, designed and implemented cutting-edge 
+              features, enhancing user experience and elevating product offerings
+              </p>
+            <p class="timeline-des">Developed and maintained web applications using AngularJS and Springboot, showcasing 
+              proficiency through hands-on application and delivering outcomes met project requirements
+              </p>
+            <p class="timeline-des">Demonstrated technical writing skills by authoring and updating comprehensive 
+              documentation for software applications, ensuring clear and effective communication of 
+              technical informatio</p>
+          </li>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Front-End Developer</h4>
+            <span>2022-2023</span>
+            <p class="timeline-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea itaque eveniet fugit, veniam ratione sapiente repellat earum labore, accusantium eaque quos perspiciatis vitae assumenda. Vel minima reiciendis non. Neque.</p>
+          </li>
+
+        </ol>
+      </section>
+
+      <section class="skill">
+        <h3 class="h3 skills-title">My skills</h3>
+        <ul class="skills-list content-card">
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">HTML&CSS</h5>
+              <data value="80">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">JavaScrypt</h5>
+              <data value="70">70%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Typescrypt</h5>
+              <data value="60">60%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 60%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Framework and Libraries</h5>
+              <data value="70">70%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
       </section>
     </article>
 
     <!-- Projects Page -->
-    <article id="projects" class="projects active" data-page="projects">
+    <article class="projects" data-page="projects">
       <header>
-        <h2 class="h2 article-title">Projects</h2>
+        <h2 class="h2 article-title">Projects </h2>
       </header>
+      <section class="projects-info">
+        <ul class="filter-btn">
+          <li class="data-filter-btn" >
+            <button class="active" data-filter-item>All</button>
+          </li>
+          <li class="data-filter-btn">
+            <button data-filter-item>Web Development</button>
+          </li>
+          <li class="data-filter-btn">
+            <button data-filter-item>Frameworks</button>
+          </li>
+        </ul>
+
+        <ul class="projects-list">
+          <li class="projects-items">
+            <a href="#">
+              <figure class="project-img">
+                <div class="projects-item-icon">
+                  <img src="/Images/icons8-info-28.png">
+                </div>
+                <img src="/Images/E-commerce.png">
+              </figure>
+              <h3 class="project-title">E-commerce Website</h3>
+              <p class="project-cat">Web Development</p>
+            </a>
+          </li>
+          <li class="projects-items">
+            <a href="#">
+              <figure class="project-img">
+                <div class="projects-item-icon">
+                  <img src="/Images/icons8-info-28.png">
+                </div>
+                <img src="/Images/Library-management.png">
+              </figure>
+              <h3 class="project-title">Library Management System</h3>
+              <p class="project-cat">Web Development</p>
+            </a>
+          </li>
+          <li class="projects-items">
+            <a href="#">
+              <figure class="project-img">
+                <div class="projects-item-icon">
+                  <img src="/Images/icons8-info-28.png">
+                </div>
+                <img src="/Images/Football Websites.jpg">
+              </figure>
+              <h3 class="project-title">Football Websites</h3>
+              <p class="project-cat">Web Development</p>
+            </a>
+          </li>
+          <li class="projects-items">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-items-icon">
+                  <img src="/Images/icons8-info-28.png">
+                </div>
+                <img src="/Images/E-healthcare.jpg">
+              </figure>
+              <h3 class="project-title">Online Healthcare and Consultation</h3>
+              <p class="project-cat">Web Development</p>
+            </a>
+          </li>
+          <li class="projects-items">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-items-icon">
+                  <img src="">
+                </div>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </article>
+
+    <!--Contact Page-->
+    <article class="contact" data-page="contact">
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.87586872856!2d150.60232113202252!3d-33.847805254309456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20New%20South%20Wales!5e0!3m2!1svi!2sau!4v1684997922476!5m2!1svi!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <p class="contact-title hidden-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium optio quisquam ratione nisi id odio consectetur quo assumenda magnam, enim incidunt accusantium impedit pariatur laborum facilis ducimus. Expedita, nulla cum.</p>
+      <section class="contact-form">
+        <h3 class="h3 form-title">Contact Form</h3>
+        <form action="#" class="form" data-form>
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <button class="form-btn" type="submit" disabled data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+        </form>
+      </section>
     </article>
 
     </div>
